@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Articleweb">
+    <WebView
+        android:id="@+id/articleexcerpt3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="20dp"
+        android:paddingTop="300dp"
+        android:text="A material metaphor is the unifying theory of a rationalized space and a system of motion.The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic"
+        android:textColor="?attr/articlewebtext"
+        android:background="?attr/framelayoutbackground"
+        android:textSize="12dp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

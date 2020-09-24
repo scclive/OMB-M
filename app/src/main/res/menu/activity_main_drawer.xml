@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_howto"
+            android:icon="@drawable/question"
+            android:title="How To" />
+        <item
+            android:id="@+id/nav_Videos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Videos" />
+        <item
+            android:id="@+id/nav_Amuse"
+            android:icon="@drawable/box"
+            android:title="Amuse" />
+        <item
+            android:id="@+id/nav_Images"
+            android:icon="@drawable/picture"
+            android:title="Images" />
+        <item
+            android:id="@+id/nav_Legacy"
+            android:icon="@drawable/quote"
+            android:title="Legacy" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@drawable/privacy"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/nav_settngs"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+</menu>

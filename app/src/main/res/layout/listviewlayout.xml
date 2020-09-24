@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="7dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    app:cardCornerRadius="7dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="?attr/cardview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/articleimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/defaultbackground"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/articletitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="20dp"
+            android:text="Material is the metaphor."
+            android:textAllCaps="true"
+            android:textColor="?attr/cardviewTitle"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/articleexcerpt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:maxLines="4"
+            android:paddingLeft="20dp"
+            android:text="A material metaphor is the unifying theory of a rationalized space and a system of motion.The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic"
+            android:textColor="?attr/cardviewExcerpt"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

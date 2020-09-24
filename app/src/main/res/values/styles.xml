@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!--menu pressed & task view-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!--notification-->
+        <item name="colorAccent">@color/colorAccent</item> <!--mail-->
+
+        <item name="colorPrimaryDark2">#1f343f</item> <!--drawer background, progressbar-->
+        <item name="colorPrimaryDark3">#ffffff</item> <!--drawer icon-->
+        <item name="colorPrimaryDark4">#ffffff</item> <!--drawer text-->
+        <item name="backgroundmaintoolbar">#264D68</item><!--appbar-->
+        <item name="contactustextcolor">#FFFFFF</item>
+        <item name="articlewebtext">#000000</item>
+        <item name="cardview">#ffffff</item>
+        <item name="cardviewTitle">#000000</item>
+        <item name="cardviewExcerpt">#D3000000</item>
+        <item name="framelayoutbackground">#FFFFFF</item>
+
+        <item name="background2">#646363</item>
+        <item name="textcolor1">#B3B0B0</item>
+        <item name="textcolor2">#B3B0B0</item>
+        <item name="black_overlay">#264D68</item>
+        <item name="android:windowAnimationStyle">@style/windowanimation</item>
+    </style>
+
+    <style name="darktheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!--menu pressed & task view-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!--notification-->
+        <item name="colorAccent">@color/colorAccent</item> <!--mail-->
+
+        <item name="colorPrimaryDark2">#1f343f</item> <!--drawer background, progressbar-->
+        <item name="colorPrimaryDark3">#ffffff</item> <!--drawer icon-->
+        <item name="colorPrimaryDark4">#ffffff</item> <!--drawer text-->
+        <item name="backgroundmaintoolbar">#264D68</item><!--appbar-->
+        <item name="contactustextcolor">#050505</item>
+        <item name="articlewebtext">#000000</item>
+        <item name="cardview">#3E6980</item>
+        <item name="cardviewTitle">#FFFFFF</item>
+        <item name="cardviewExcerpt">#D3F5EFEF</item>
+        <item name="framelayoutbackground">#FF0000</item>
+
+        <item name="background2">#646363</item>
+        <item name="textcolor1">#B3B0B0</item>
+        <item name="textcolor2">#B3B0B0</item>
+        <item name="black_overlay">#264D68</item>
+        <item name="android:windowAnimationStyle">@style/windowanimation</item>
+    </style>
+    <style name="windowanimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+</resources>

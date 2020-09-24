@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ds">
+        <attr name="colorPrimaryDark" format="color" /> <!--notification-->
+        <attr name="colorPrimaryDark2" format="color" /> <!--drawer background, progressbar-->
+        <attr name="colorPrimaryDark3" format="color" /> <!--drawer icon-->
+        <attr name="colorPrimaryDark4" format="color" /> <!--drawer text-->
+        <attr name="colorPrimary" format="color" /> <!--menu pressed & task view-->
+        <attr name="colorAccent" format="color" /> <!--mail-->
+        <attr name="backgroundmaintoolbar" format="color" /><!--appbar-->
+        <attr name="contactustextcolor" format="color" />
+        <attr name="articlewebtext" format="color" />
+        <attr name="cardview" format="color" />
+        <attr name="cardviewTitle" format="color" />
+        <attr name="cardviewExcerpt" format="color" />
+        <attr name="framelayoutbackground" format="color" />
+        <attr name="background2" format="color" />
+        <attr name="textcolor1" format="color" />
+        <attr name="textcolor2" format="color" />
+        <attr name="black_overlay" format="color" />
+
+
+    </declare-styleable>
+
+</resources>

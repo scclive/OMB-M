@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#1f343f</color> <!--notification-->
+    <color name="colorPrimaryDark2">#1f343f</color> <!--drawer background, progressbar-->
+    <color name="colorPrimaryDark3">#ffffff</color> <!--drawer icon-->
+    <color name="colorPrimaryDark4">#ffffff</color> <!--drawer text-->
+    <color name="colorPrimary">#6BB1A9</color> <!--menu pressed & task view-->
+    <color name="colorAccent">#1f343f</color> <!--mail-->
+    <color name="backgroundmaintoolbar">#264D68</color><!--appbar-->
+    <color name="contactustextcolor">#FFFFFF</color>
+    <color name="articlewebtext">#000000</color>
+    <color name="cardview">#ffffff</color>
+    <color name="cardviewTitle">#000000</color>
+    <color name="cardviewExcerpt">#D3000000</color>
+    <color name="framelayoutbackground">#FFFFFF</color>
+
+    <color name="background2">#646363</color>
+    <color name="textcolor1">#B3B0B0</color>
+    <color name="textcolor2">#B3B0B0</color>
+    <color name="black_overlay">#264D68</color>
+</resources>
